@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1001" height="141" viewBox="0 0 1001 141">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@800&family=Inter:ital,wght@1,700&display=swap');
+    .agents { font-family: 'Fraunces', serif; font-weight: 800; font-size: 100px; fill: #0B4B38; letter-spacing: -0.02em; }
+    .for    { font-family: 'Inter', sans-serif; font-style: italic; font-weight: 700; font-size: 70px; fill: #0B4B38; }
+    .good   { font-family: 'Fraunces', serif; font-weight: 800; font-size: 90px;  fill: #0B4B38; letter-spacing: -0.01em; }
+  </style>
+  <!-- 1px-ish padding is achieved by sizing the viewBox tightly to the glyph bounds -->
+  <text x="1"   y="98" class="agents">Agents</text>
+  <text x="505" y="98" class="for">for</text>
+  <text x="644" y="98" class="good">Good</text>
+</svg>

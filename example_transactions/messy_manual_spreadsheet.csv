@@ -1,0 +1,19 @@
+when?,donor,contact,amt,paid_via,note,tags
+06-Feb-2025,"White, Renee",,15.00,stripe link,,school-supplies
+24-Apr-2025,Acme Foundation,,60,stripe link,event table sponsor,monthly
+08-Feb-2025,", Anonymous",,100.00,cash,,school-supplies
+28-Sep-2025,", Check Donor",,$50,stripe link,matching gift expected,school-supplies
+25-May-2025,"Hernández, Marisol",marisol.hernandez@example.org / 544.304.2519,$500,stripe link,event table sponsor,"gala, sponsor"
+03-Jan-2026,"Chen, Omar",440.478.6502,$15,fb,returned mail,
+16-Feb-2025,"Hernández, Marisol",,60.00,stripe link,returned mail,monthly
+19-Jun-2025,", Check Donor",,$25,paypal,matching gift expected,restricted:scholarship
+04-Sep-2025,"Hernández, Marisol",544.304.2519,1000.00,stripe link,pledge installment,"gala, sponsor"
+22-Oct-2025,"Patel, Ivy",699.424.5471,100.00,cash,event table sponsor,monthly
+24-Sep-2025,"Lewis, Jun",(551) 408-5325,$60,paypal,pledge installment,
+01-Jan-2026,"Hernández, Omar",311.454.4139,60.00,cash,event table sponsor,monthly
+26-Aug-2025,Bright Horizons LLC,285.858.8022,750.00,cash,,school-supplies
+10-Jul-2025,"Garcia, Kenji",,$100,cash,,monthly
+28-Sep-2025,Sunrise Pediatric Partners,+1-462-985-7043,75,cash,pledge installment,"gala, sponsor"
+30-Nov-2025,", Check Donor", / ,60,paypal,matching gift expected,monthly
+04-Aug-2025,"Chen, Omar",440.478.6502,$25,stripe link,,school-supplies
+16-Nov-2025,"Khan, Fatima",(913) 948-8973,$150,cash,returned mail,

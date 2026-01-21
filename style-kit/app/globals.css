@@ -1,0 +1,23 @@
+@import '../tokens.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-text);
+  scroll-behavior: smooth;
+}
+
+@layer components {
+  .section-title {
+    @apply font-display text-3xl font-semibold tracking-tight text-foreground;
+  }
+
+  .section-kicker {
+    @apply text-xs font-semibold uppercase tracking-[0.3em] text-foreground/60;
+  }
+}

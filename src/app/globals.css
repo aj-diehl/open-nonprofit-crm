@@ -1,0 +1,58 @@
+@import "../../style-kit/tokens.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  --background-rgb: 250 250 248;
+  --success-rgb: 31 169 124;
+  --warning-rgb: 183 121 31;
+  --danger-rgb: 192 55 60;
+  --info-rgb: 31 110 140;
+  --ink-500: #6F7DA7;
+  --ink-700: #2A3656;
+}
+
+.theme-dark {
+  --background-rgb: 12 19 32;
+}
+
+html,
+body {
+  height: 100%;
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-text);
+  scroll-behavior: smooth;
+}
+
+body {
+  text-rendering: optimizeLegibility;
+}
+
+a {
+  color: inherit;
+}
+
+@layer components {
+  .section-title {
+    @apply font-display text-3xl font-semibold tracking-tight text-foreground;
+  }
+
+  .section-kicker {
+    @apply text-xs font-semibold uppercase tracking-[0.3em] text-foreground/60;
+  }
+
+  .btn-secondary {
+    background: transparent;
+    color: var(--secondary);
+    border-color: var(--secondary);
+  }
+
+  .btn-secondary:hover {
+    background: var(--muted);
+    transform: translateY(-1px);
+  }
+}
